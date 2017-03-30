@@ -116,11 +116,7 @@ Digamos que você queira utilizar [`elm-lang/http`][http] e [`NoRedInk/elm-decod
 elm-package install elm-lang/http
 elm-package install NoRedInk/elm-decode-pipeline
 ```
-
-This will add the dependencies to your `elm-package.json` file that describes your project. (Or create it if you do not have one yet!) More information about all this [here](https://github.com/elm-lang/elm-package)!
-
 Isso irá adicionar as dependências a seu arquivo `elm-package.json`, que descreve seu projeto, ou irá criá-lo caso não tenha um ainda! Mais informações sobre tudo isso [aqui](https://github.com/elm-lang/elm-package)!
-
 
 **Comandos importantes:**
 
