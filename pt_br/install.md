@@ -4,14 +4,14 @@
 
 * Mac &mdash; [instalador][mac]
 * Windows &mdash; [instalador][win]
-* Anywhere &mdash; [instalador npm ][npm] ou [gerar a partir do source][build]
+* Qualquer S.O. &mdash; [instalador npm ][npm] ou [gerar a partir do source][build]
 
 [mac]: http://install.elm-lang.org/Elm-Platform-0.18.pkg
 [win]: http://install.elm-lang.org/Elm-Platform-0.18.exe
 [npm]: https://www.npmjs.com/package/elm
 [build]: https://github.com/elm-lang/elm-platform
 
-Após instalar por qualquer uma dessas rotas, você terá disponíveis as seguintes ferramentas em linha de comando:
+Após instalar por qualquer uma dessas maneiras, você terá disponíveis as seguintes ferramentas em linha de comando:
 
 - [`elm-repl`](#elm-repl) &mdash; brinque com expressões em Elm
 - [`elm-reactor`](#elm-reactor) &mdash; coloque rapidamente um projeto pra rodar
@@ -20,7 +20,7 @@ Após instalar por qualquer uma dessas rotas, você terá disponíveis as seguin
 
 Veremos com mais detalhes como cada uma delas funciona assim que configurarmos seu editor!
 
-> **Tira-dúvidas:** O jeito mais rápido de aprender *qualquer coisa* é conversando com o pessoal da comunidade Elm. Somos amigáveis e estamos sempre felizes em ajudar!  Então, se você estiver empacado em alguma etapa da instalação ou encontrar alguma coisa estranha, viste o [Elm Slack](http://elmlang.herokuapp.com/) e faça uma pergunta. Na verdade, se você encontrar alguma coisa confusa em qualquer situação enquanto estiver aprendendo ou usando Elm, apareça e nos pergunte sobre isso. Você poderá economizar horas. Apenas venha e pergunte!
+> **Solucionando Problemas:** O jeito mais rápido de aprender *qualquer coisa* é conversando com o pessoal da comunidade Elm. Somos amigáveis e estamos sempre felizes em ajudar!  Então, se você estiver empacado em alguma etapa da instalação ou encontrar alguma coisa estranha, viste o [Elm Slack](http://elmlang.herokuapp.com/) e faça uma pergunta. Na verdade, se você encontrar alguma coisa confusa em qualquer situação enquanto estiver aprendendo ou usando Elm, apareça e nos pergunte sobre isso. Você poderá economizar horas. Apenas venha e pergunte!
 
 
 ## Configure seu Editor
@@ -88,7 +88,7 @@ Ele vai iniciar um servidor em [`http://localhost:8000`](http://localhost:8000).
   `elm-reactor --port=8123` para fazer as coisas rodarem em `http://localhost:8123`.
 - `--address` te deixa substituir `localhost` por algum outro endereço. Por exemplo, você talvez queira utilizar `elm-reactor --address=0.0.0.0` se quiser testar um programa em Elm em um disposivo móvel conectado à sua rede local.
 
-## elm-make
+### elm-make
 
 [`elm-make`](https://github.com/elm-lang/elm-make) monta os projetos em Elm. Ele pode compilar código Elm para HTML ou JavaScript. É a maneira mais genérica de compilar código Elm, ou seja, caso seu projeto se torne muito avançado para o `elm-reactor`, você vai preferir utilizar `elm-make` diretamente.
 
